@@ -20,6 +20,18 @@ body {
   color: var(--text-light);
   overflow-x: hidden;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent horizontal scroll on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
 }
 
 html {
@@ -42,6 +54,12 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent-blue);
+}
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
 }
 
 /* Animations */

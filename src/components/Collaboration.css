@@ -152,24 +152,44 @@
 
 @media (max-width: 768px) {
   .collaboration {
-    padding: 60px 20px;
+    padding: 60px 15px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    letter-spacing: 2px;
   }
 
   .collaboration-content {
     padding: 30px 20px;
   }
 
+  .collaboration-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
   .collaboration-name {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .collaboration-tagline {
-    font-size: 16px;
+    font-size: 15px;
+  }
+
+  .collaboration-description {
+    margin-bottom: 30px;
   }
 
   .collaboration-description p,
   .collaboration-message p {
-    font-size: 16px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .achievements-title {
+    font-size: 24px;
+    margin-bottom: 25px;
   }
 
   .achievements-grid {
@@ -179,6 +199,76 @@
 
   .achievement-card {
     padding: 25px 20px;
+  }
+
+  .achievement-icon {
+    font-size: 40px;
+  }
+
+  .achievement-card h5 {
+    font-size: 20px;
+  }
+
+  .achievement-card p {
+    font-size: 14px;
+  }
+
+  .visit-website-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .collaboration {
+    padding: 50px 10px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .collaboration-content {
+    padding: 25px 15px;
+  }
+
+  .collaboration-name {
+    font-size: 22px;
+  }
+
+  .collaboration-tagline {
+    font-size: 14px;
+  }
+
+  .collaboration-description p,
+  .collaboration-message p {
+    font-size: 14px;
+  }
+
+  .achievements-title {
+    font-size: 20px;
+  }
+
+  .achievement-card {
+    padding: 20px 15px;
+  }
+
+  .achievement-icon {
+    font-size: 36px;
+  }
+
+  .achievement-card h5 {
+    font-size: 18px;
+  }
+
+  .achievement-card p {
+    font-size: 13px;
+  }
+
+  .visit-website-btn {
+    padding: 10px 25px;
+    font-size: 14px;
   }
 }
 

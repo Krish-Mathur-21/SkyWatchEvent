@@ -82,23 +82,67 @@
 
 @media (max-width: 768px) {
   .faq {
-    padding: 60px 20px;
+    padding: 60px 15px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    letter-spacing: 2px;
   }
 
   .faq-question {
-    padding: 20px;
+    padding: 18px;
   }
 
   .faq-question h3 {
-    font-size: 18px;
+    font-size: 17px;
+  }
+
+  .faq-icon {
+    font-size: 28px;
+    width: 25px;
   }
 
   .faq-item.open .faq-answer {
-    padding: 0 20px 20px;
+    padding: 0 18px 18px;
+    max-height: 300px;
   }
 
   .faq-answer p {
     font-size: 14px;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq {
+    padding: 50px 10px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .faq-question {
+    padding: 15px;
+  }
+
+  .faq-question h3 {
+    font-size: 16px;
+  }
+
+  .faq-icon {
+    font-size: 24px;
+    width: 22px;
+  }
+
+  .faq-item.open .faq-answer {
+    padding: 0 15px 15px;
+  }
+
+  .faq-answer p {
+    font-size: 13px;
+    padding-top: 12px;
   }
 }
 

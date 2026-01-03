@@ -121,41 +121,97 @@
 
 @media (max-width: 768px) {
   .schedule {
-    padding: 60px 20px;
+    padding: 60px 15px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+
+  .schedule-sections {
+    gap: 40px;
   }
 
   .schedule-section-title {
-    font-size: 24px;
+    font-size: 22px;
+    margin-bottom: 30px;
   }
 
   .schedule-section .schedule-timeline::before {
-    left: 30px;
+    left: 25px;
   }
 
   .timeline-item {
     flex-direction: row !important;
-    padding-left: 60px;
+    padding-left: 55px;
+    margin-bottom: 40px;
   }
 
   .timeline-marker {
-    left: 30px;
+    left: 25px;
+    width: 16px;
+    height: 16px;
   }
 
   .timeline-content {
     width: 100%;
     margin: 0 !important;
+    padding: 20px;
   }
 
   .timeline-time {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .timeline-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .timeline-description {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .schedule {
+    padding: 50px 10px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .schedule-section-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .timeline-item {
+    padding-left: 45px;
+    margin-bottom: 30px;
+  }
+
+  .timeline-marker {
+    left: 20px;
+    width: 14px;
+    height: 14px;
+  }
+
+  .timeline-content {
+    padding: 15px;
+  }
+
+  .timeline-time {
+    font-size: 14px;
+  }
+
+  .timeline-title {
+    font-size: 16px;
+  }
+
+  .timeline-description {
+    font-size: 13px;
   }
 }
 

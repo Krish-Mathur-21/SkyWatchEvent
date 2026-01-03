@@ -166,17 +166,41 @@
 }
 
 @media (max-width: 480px) {
+  .gallery {
+    padding: 50px 10px;
+  }
+
   .gallery-title {
-    font-size: 28px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+  }
+
+  .gallery-title::after {
+    width: 100px;
+    height: 2px;
   }
 
   .gallery-description {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 30px;
   }
 
   .gallery-item {
-    width: 250px;
-    height: 180px;
+    width: 240px;
+    height: 170px;
+  }
+
+  .gallery-grid {
+    gap: 12px;
   }
 }
+
+@media (max-width: 360px) {
+  .gallery-item {
+    width: 220px;
+    height: 160px;
+  }
+}
+
 

@@ -172,6 +172,7 @@
   z-index: 2;
 }
 
+
 .scroll-arrow {
   width: 2px;
   height: 30px;
@@ -207,33 +208,126 @@
   .event-name {
     font-size: 56px;
   }
+
+  .hero-content {
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 768px) {
   .hero {
-    padding: 100px 20px 60px;
+    padding: 100px 15px 60px;
+    min-height: auto;
+  }
+
+  .hero-content {
+    padding: 0;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .club-name {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
   }
 
   .event-name {
-    font-size: 42px;
+    font-size: 38px;
+    margin-bottom: 8px;
   }
 
   .event-year {
-    font-size: 36px;
+    font-size: 28px;
+    letter-spacing: 3px;
   }
 
   .hero-subtitle {
-    font-size: 22px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
   }
 
   .hero-description {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  .hero-buttons {
+    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
   }
 
   .btn-primary,
   .btn-secondary {
-    padding: 12px 30px;
+    padding: 12px 25px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .scroll-indicator {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 90px 10px 50px;
+  }
+
+  .club-name {
     font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+
+  .event-name {
+    font-size: 32px;
+  }
+
+  .event-year {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    margin-bottom: 25px;
+  }
+
+  .scroll-indicator {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 11px;
+  }
+
+  .scroll-arrow {
+    height: 25px;
   }
 }
 
