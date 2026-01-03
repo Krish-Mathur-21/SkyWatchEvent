@@ -24,7 +24,7 @@ A modern, engaging React website for the Sky Watch stargazing event organized by
 ### Prerequisites
 
 - Node.js (v16 or higher)
-- npm or yarn
+- npm
 
 ### Installation
 
@@ -53,32 +53,6 @@ The built files will be in the `dist` directory.
 ```bash
 npm run preview
 ```
-
-## Customization
-
-### Update Event Information
-
-Edit the following files to customize event details:
-
-- `src/components/Hero.jsx` - Main hero section text
-- `src/components/EventDetails.jsx` - Event date, time, location
-- `src/components/Schedule.jsx` - Event schedule timeline
-- `src/components/Footer.jsx` - Footer information and links
-
-### Change Colors
-
-Edit CSS variables in `src/index.css`:
-
-```css
-:root {
-  --primary-dark: #0a0a0f;
-  --secondary-dark: #1a1a2e;
-  --accent-cyan: #00d4ff;
-  --accent-blue: #0099cc;
-  --accent-purple: #6c5ce7;
-}
-```
-
 ## Technologies Used
 
 - React 18
