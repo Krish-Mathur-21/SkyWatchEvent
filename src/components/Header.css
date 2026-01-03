@@ -106,13 +106,13 @@
 
 @media (max-width: 768px) {
   .header {
-    padding: 15px 0;
+    padding: 12px 0;
   }
 
   .header-container {
     padding: 0 15px;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
   }
 
   .social-links {
@@ -144,9 +144,13 @@
 }
 
 @media (max-width: 480px) {
+  .header {
+    padding: 10px 0;
+  }
+
   .header-container {
     padding: 0 10px;
-    gap: 10px;
+    gap: 8px;
   }
 
   .social-links {
