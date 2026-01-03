@@ -1,9 +1,22 @@
 import React from 'react'
 import './Hero.css'
+import videoSrc from '../assets/Video.mp4'
 
 const Hero = () => {
   return (
     <section className="hero">
+      <div className="hero-video-container">
+        <video 
+          className="hero-video" 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+        >
+          <source src={videoSrc} type="video/mp4" />
+        </video>
+        <div className="hero-video-overlay"></div>
+      </div>
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
@@ -25,17 +38,6 @@ const Hero = () => {
             <a href="#event-details" className="btn-secondary">
               Learn More
             </a>
-          </div>
-        </div>
-        <div className="hero-visual">
-          <div className="telescope-icon">
-            <div className="telescope-body"></div>
-            <div className="telescope-lens"></div>
-            <div className="stars-orbiting">
-              <div className="star star-1"></div>
-              <div className="star star-2"></div>
-              <div className="star star-3"></div>
-            </div>
           </div>
         </div>
       </div>
