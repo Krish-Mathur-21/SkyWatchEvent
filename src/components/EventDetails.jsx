@@ -10,8 +10,8 @@ const EventDetails = () => {
           <div className="detail-card">
             <div className="card-icon">📅</div>
             <h3>Date & Time</h3>
-            <p className="detail-text">January 24-25, 2026</p>
-            <p className="detail-text">7:00 PM - 11:00 PM</p>
+            <p className="detail-text">January 24-25</p>
+            <p className="detail-text">2026</p>
           </div>
           <div className="detail-card">
             <div className="card-icon">📍</div>

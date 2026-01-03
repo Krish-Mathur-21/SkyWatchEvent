@@ -11,7 +11,7 @@ const Hero = () => {
             <span className="event-name">SKY WATCH</span>
             <span className="event-year">2026</span>
           </h1>
-          <p className="hero-subtitle">An Immersive Outreach Program by Aerospace Club</p>
+          <p className="hero-subtitle">An immersive astronomy experience by the Aerospace Club</p>
           <p className="hero-description">
             SkyWatch brings the wonders of the universe to the MITS community through 
             technical workshops and deep-sky observation. Featuring a special collaboration 
