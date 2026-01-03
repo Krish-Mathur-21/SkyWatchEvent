@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="hero-text">
           <h1 className="hero-title">
             <span className="club-name">AEROSPACE CLUB</span>
-            <span className="event-name">SKY WATCH</span>
+            <span className="event-name">SKY WATCH 2.0</span>
             <span className="event-year">2026</span>
           </h1>
           <p className="hero-subtitle">An immersive astronomy experience by the Aerospace Club</p>
