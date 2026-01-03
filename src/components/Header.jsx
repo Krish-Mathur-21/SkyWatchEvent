@@ -39,6 +39,7 @@ const Header = () => {
         </div>
 
         <nav className="nav-links">
+          <a href="https://aerospace-club-mits.vercel.app" target="_blank" rel="noopener noreferrer">HOME PAGE</a>
           <a href="#event-details">EVENT DETAILS</a>
           <a href="#schedule">SCHEDULE</a>
           <a href="#faq">FAQ</a>

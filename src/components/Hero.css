@@ -83,7 +83,7 @@
   background-clip: text;
   line-height: 1.1;
   margin-bottom: 10px;
-  text-shadow: 0 0 5px rgba(0, 212, 255, 0.25);
+  text-shadow: 0 0 3px rgba(0, 212, 255, 0.15);
   animation: glow 3s ease-in-out infinite;
 }
 
