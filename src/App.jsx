@@ -5,6 +5,7 @@ import EventDetails from './components/EventDetails'
 import Features from './components/Features'
 import Schedule from './components/Schedule'
 import Collaboration from './components/Collaboration'
+import Gallery from './components/Gallery'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import './App.css'
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Schedule />
       <Collaboration />
+      <Gallery />
       <FAQ />
       <Footer />
     </div>
