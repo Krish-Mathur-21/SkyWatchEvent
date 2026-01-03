@@ -1,0 +1,184 @@
+.collaboration {
+  padding: 100px 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.collaboration-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(26, 26, 46, 0.4);
+  border: 2px solid var(--accent-cyan);
+  border-radius: 20px;
+  padding: 50px;
+  backdrop-filter: blur(10px);
+  animation: fadeIn 1s ease-out;
+}
+
+.collaboration-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgba(0, 212, 255, 0.2);
+}
+
+.collaboration-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 36px;
+  color: var(--accent-cyan);
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+}
+
+.collaboration-tagline {
+  font-size: 20px;
+  color: var(--text-gray);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.collaboration-description {
+  margin-bottom: 40px;
+}
+
+.collaboration-description p {
+  font-size: 18px;
+  color: var(--text-gray);
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.collaboration-achievements {
+  margin-bottom: 40px;
+}
+
+.achievements-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  color: var(--accent-cyan);
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.achievement-card {
+  background: rgba(10, 10, 15, 0.6);
+  border: 2px solid var(--accent-cyan);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  animation: fadeIn 1s ease-out both;
+}
+
+.achievement-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.achievement-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.achievement-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.achievement-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 40px rgba(0, 212, 255, 0.3);
+  border-color: var(--accent-blue);
+}
+
+.achievement-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 10px var(--accent-cyan));
+}
+
+.achievement-card h5 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+  color: var(--accent-cyan);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.achievement-card p {
+  font-size: 16px;
+  color: var(--text-gray);
+  line-height: 1.6;
+}
+
+.collaboration-message {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 2px solid rgba(0, 212, 255, 0.2);
+}
+
+.collaboration-message p {
+  font-size: 18px;
+  color: var(--text-gray);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.visit-website-btn {
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  background: var(--accent-cyan);
+  color: var(--primary-dark);
+  border: 2px solid var(--accent-cyan);
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.visit-website-btn:hover {
+  background: transparent;
+  color: var(--accent-cyan);
+  box-shadow: 0 0 30px var(--accent-cyan);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .collaboration {
+    padding: 60px 20px;
+  }
+
+  .collaboration-content {
+    padding: 30px 20px;
+  }
+
+  .collaboration-name {
+    font-size: 28px;
+  }
+
+  .collaboration-tagline {
+    font-size: 16px;
+  }
+
+  .collaboration-description p,
+  .collaboration-message p {
+    font-size: 16px;
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .achievement-card {
+    padding: 25px 20px;
+  }
+}
+
