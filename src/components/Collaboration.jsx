@@ -36,7 +36,7 @@ const Collaboration = () => {
                 <p>Famous for the Aryabhat Astronomy Quiz, which has engaged thousands of students and sent winners to world-class observatories like Kodaikanal and Udaipur.</p>
               </div>
               <div className="achievement-card">
-                <div className="achievement-icon">🔬</div>
+                <div className="achievement-icon">🔭</div>
                 <h5>Hands-on Learning</h5>
                 <p>Specialized in telescope-aided sky observations, solar workshops, and NASA-recognized research projects.</p>
               </div>
@@ -50,7 +50,7 @@ const Collaboration = () => {
               event—it will be a launchpad for future space explorers.
             </p>
             <a 
-              href="https://aryabhatfoundation.org" 
+              href="https://aryabhat.org" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="visit-website-btn"
